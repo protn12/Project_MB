@@ -1,0 +1,29 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+        <hibernate-configuration>
+          <session-factory>
+            <mapping package="model"/>
+            <mapping class="model.AgentCommercial"/>
+            <mapping class="model.Commande"/>
+            <mapping class="model.Articles"/>
+            <mapping class="model.Facture"/>
+             <mapping class="model.Comptable"/>
+              <mapping class="model.Client"/>
+               <mapping class="model.CarteCredit"/>
+                <mapping class="model.CarteTelephonique"/>
+                 <mapping class="model.Stock"/>
+                  <mapping class="model.Catalogue"/>
+                   <mapping class="model.Cheque"/>
+                 <mapping class="model.Cles3G"/>
+                  <mapping class="model.Espece"/>
+                  <mapping class="model.LigneTelephonique"/>
+                        <mapping class="model.Operateur"/>
+                        <mapping class="model.RelglementPaiement"/>
+                      <mapping class="model.Responsable"/>
+                        <mapping class="model.Telephone"/>
+                       <mapping class="model.Type"/>
+                   
+          </session-factory>
+        </hibernate-configuration>
